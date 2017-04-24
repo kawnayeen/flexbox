@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #111111;
+    height: 150px;
+}
+
+.default {
+    align-items: stretch;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.baseline div:nth-child(2) {
+    font-size: 40px;
+}
