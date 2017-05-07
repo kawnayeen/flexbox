@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 500px;
+    height: 250px;
+    border: 1px solid #111;
+}
+
+.default div:nth-child(3) {
+    order: 0;
+}
+
+.beforeEveryone div:nth-child(1){
+    align-self: stretch;
+}
+
+.afterEveryone div:nth-child(3){
+    order: 1;
+    align-self: flex-end;
+}
