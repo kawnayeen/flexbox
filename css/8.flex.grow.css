@@ -1,0 +1,24 @@
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid #111111;
+}
+
+.container div {
+    float: right;
+    width: 100px;
+    margin: 0;
+}
+
+.default div {
+    /*flex-grow: 0;*/
+}
+
+.grow-equally div {
+    /*flex-grow: 1;*/
+}
+
+.prefer-second div:nth-child(2) {
+    /*flex-grow: 3;*/
+}
