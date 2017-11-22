@@ -9,13 +9,13 @@
 }
 
 .default div:nth-child(3) {
-    /*order: 0;*/
+    order: 0;
 }
 
 .beforeEveryone div:nth-child(3){
-    /*order: -1;*/
+    order: -1;
 }
 
 .afterEveryone div:nth-child(3){
-    /*order: 1;*/
+    order: 1;
 }

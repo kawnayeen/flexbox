@@ -8,17 +8,17 @@
 }
 
 .default {
-    /*flex-wrap: nowrap;*/
+    flex-wrap: nowrap;
 }
 
 .wrap {
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
 
 .wrap-reverse {
-    /*flex-wrap: wrap-reverse;*/
+    flex-wrap: wrap-reverse;
 }
 
 .flex-flow {
-    /*flex-flow: row-reverse wrap-reverse;*/
+    flex-flow: row-reverse wrap-reverse;
 }
